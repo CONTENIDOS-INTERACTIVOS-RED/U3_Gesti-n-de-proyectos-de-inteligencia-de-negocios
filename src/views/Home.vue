@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 En un entorno empresarial marcado por la transformación digital y la necesidad de decisiones basadas en datos, la gestión de proyectos se convierte en una herramienta estratégica para alcanzar objetivos con eficiencia. Esta unidad introductoria explora los fundamentos de la gestión de proyectos aplicados al campo de la Inteligencia de Negocios (BI), destacando su relevancia para mejorar la competitividad organizacional. Se abordarán principios clave, metodologías ágiles y tradicionales, planificación estratégica y evaluación de riesgos, ofreciendo al estudiante una comprensión integral del proceso de implementación de soluciones BI.
+              p.descripcion.mb-4 En la era de la transformación digital, la evaluación y escalabilidad de los proyectos de Business Intelligence (BI) se ha convertido en un factor estratégico clave para las organizaciones. Esta unidad aborda los criterios de éxito, sostenibilidad y retorno de inversión (ROI) de los sistemas analíticos, así como las herramientas y estrategias necesarias para su evolución y continuidad operativa. Además, se desarrollan habilidades para la presentación de resultados mediante visualizaciones efectivas y narrativas basadas en datos, fomentando la toma de decisiones informadas y éticas en contextos organizacionales complejos.
 
-              p #[b ¡Prepárese para liderar proyectos de inteligencia de negocios con visión estratégica y enfoque analítico!]
+              p #[b ¡Prepárese para diseñar y evaluar proyectos de BI con visión estratégica, impacto real y alto valor organizacional!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

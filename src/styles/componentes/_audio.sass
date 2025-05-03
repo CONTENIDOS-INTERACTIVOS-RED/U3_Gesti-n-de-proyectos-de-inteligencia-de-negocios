@@ -37,6 +37,8 @@
 
 .audio__btn
   background-color: transparent !important
+.audio__btn.bg-btn
+  background-color: #F8CE24 !important
 
 .tarjeta-audio
   padding: 0.65em 0.7em 0.7em 1.5em
@@ -90,17 +92,17 @@
   //         background-color: $color-primario
 
   &.color-secundario
-    border-color: $color-secundario
+    border-color: #887013
     .tarjeta-audio__input
       input[type=range]
-        background: rgba($color-secundario, 0.2)
+        background: rgba(#887013, 0.2)
         &::-webkit-slider-runnable-track
-          background: rgba($color-secundario, 0.2)
+          background: rgba(#887013, 0.2)
         &::-webkit-slider-thumb
-          background-color: $color-secundario
+          background-color: #887013
         &::-moz-range-thumb
-          background-color: $color-secundario
-          background-image: linear-gradient($color-secundario, $color-secundario)
+          background-color: #887013
+          background-image: linear-gradient(#887013, #887013)
 
   &.color-acento-contenido
     border-color: $color-acento-contenido

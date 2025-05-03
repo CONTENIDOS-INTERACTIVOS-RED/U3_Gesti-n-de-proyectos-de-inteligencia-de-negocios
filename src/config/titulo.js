@@ -1,1 +1,1 @@
-module.exports = 'Introducción a la gestión de proyectos de BI'
+module.exports = 'Evaluación y escalabilidad de proyectos de BI'

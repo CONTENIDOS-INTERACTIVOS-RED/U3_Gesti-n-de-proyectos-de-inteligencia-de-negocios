@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Introducción a la gestión de proyectos de BI',
+    numeroUnidad: '3',
+    tituloUnidad: 'Evaluación y escalabilidad de proyectos de BI',
   },
   menuPrincipal: {
     menu: [
@@ -16,14 +16,33 @@ export default {
         icono: 'far fa-file-alt',
         numero: '1',
         titulo:
-          'Introducción a la pertinencia y funcionalidad de la propuesta didáctica',
+          'Indicadores de éxito y retorno de inversión en proyectos de Business Intelligence (BI)',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Componentes claves de BI',
+            titulo: '¿Qué entendemos por “éxito” en proyectos de BI?',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Indicadores claves para evaluar el éxito',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo:
+              'Retorno de inversión (ROI) en BI: más allá de lo financiero',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Herramientas y modelos para calcular el ROI en BI',
+            hash: 't_1_4',
           },
         ],
       },
@@ -31,21 +50,30 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Metodologías ágiles y tradicionales en BI',
+        titulo:
+          'Sostenibilidad y evolución de los proyectos de inteligencia de negocios ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
             titulo:
-              'Metodologías tradicionales en la gestión de proyectos de BI',
+              'Elementos claves para la sostenibilidad y evolución del BI',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Metodologías ágiles en la gestión de proyectos de BI',
+            titulo:
+              'Estrategias para la continuidad operativa y actualización de los sistemas BI',
             hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo:
+              'Estrategias recomendadas para asegurar la continuidad y evolución operativa en BI',
+            hash: 't_2_3',
           },
         ],
       },
@@ -54,27 +82,28 @@ export default {
         icono: 'far fa-file-alt',
         numero: '3',
         titulo:
-          'Planificación estratégica en proyectos de inteligencia de negocios (BI)',
+          'Aplicación de herramientas de software en la gestión de proyectos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: '¿Qué es la planificación estratégica en proyectos de BI?',
+            titulo:
+              'Herramientas para la planificación y control del ciclo de vida del proyecto',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
             titulo:
-              'Fases claves en la planificación estratégica de un proyecto de BI',
+              'Plataformas de colaboración y gobernanza de la información',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
             titulo:
-              'Factores claves de éxito en la planificación estratégica de BI',
+              'Herramientas para análisis, visualización y toma de decisiones',
             hash: 't_3_3',
           },
         ],
@@ -83,33 +112,33 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo:
-          'Evaluación de riesgos en proyectos de Inteligencia de Negocios (BI)',
+        titulo: 'Presentación y comunicación de resultados en BI',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '4.1',
-            titulo: '¿Qué es la evaluación de riesgos en proyectos de BI?',
+            titulo: 'Estrategias de comunicación de hallazgos analíticos',
             hash: 't_4_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '4.2',
-            titulo:
-              'Fases claves en la planificación operativa de un proyecto de BI',
+            titulo: 'Diseño efectivo de dashboards e informes ejecutivos',
             hash: 't_4_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '4.3',
-            titulo: 'Metodologías para la evaluación de riesgos en BI',
+            titulo:
+              'Storytelling con datos: narrativa para la toma de decisiones',
             hash: 't_4_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '4.4',
-            titulo: 'Estrategias para mitigar riesgos en proyectos de BI',
+            titulo:
+              'Buenas prácticas éticas y técnicas en la presentación de resultados',
             hash: 't_4_4',
           },
         ],
@@ -175,87 +204,107 @@ export default {
         'Moreno-Monsalve, N. A., Grueso Hinestroza, M. P., & Mayett-Moreno, Y. (2023). Dirección y gestión de proyectos. Perspectiva ética. Editorial Universidad EAN.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/274727',
     },
-    {
-      referencia:
-        'Malagón Barinas, J. (2019). Modelos, metodologías y sistemas de gestión de proyectos. Editorial Universidad EAN.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/250971',
-    },
   ],
   glosario: [
     {
+      termino: 'Accesibilidad',
+      significado:
+        'Capacidad de acceder a los datos y resultados desde diferentes dispositivos o plataformas.',
+    },
+    {
+      termino: 'Análisis predictivo',
+      significado:
+        'Técnica que utiliza datos históricos para predecir comportamientos o eventos futuros.',
+    },
+    {
       termino: 'Business Intelligence (BI)',
       significado:
-        'Conjunto de estrategias y tecnologías para la recopilación, análisis y visualización de datos con el fin de mejorar la toma de decisiones.',
+        'Conjunto de procesos y herramientas que transforman datos en información útil para la toma de decisiones.',
     },
     {
-      termino: 'Dashboards',
+      termino: 'Ciclo de vida del proyecto',
       significado:
-        'Herramientas visuales que permiten monitorear y analizar información clave a través de gráficos e indicadores.',
+        'Fases por las que pasa un proyecto desde su inicio hasta su cierre.',
     },
     {
-      termino: 'Data Governance',
+      termino: 'Dashboard',
       significado:
-        'Conjunto de políticas y procesos que garantizan la calidad, seguridad e integridad de los datos en una organización.',
+        'Panel visual interactivo que presenta indicadores clave (KPIs) y métricas relevantes.',
     },
     {
-      termino: 'Data Warehouse',
+      termino: 'Data Storytelling',
       significado:
-        'Almacén centralizado donde se integran y estructuran grandes volúmenes de datos para su análisis.',
+        'Técnica narrativa que combina datos, visualizaciones y contexto para comunicar hallazgos.',
     },
     {
-      termino: 'Gestión de proyectos',
+      termino: 'Gobernanza de datos',
       significado:
-        'Disciplina que aplica conocimientos, herramientas y técnicas para planificar, ejecutar y monitorear proyectos de manera eficiente.',
+        'Conjunto de políticas y procesos para asegurar la calidad, seguridad y gestión ética de los datos.',
     },
     {
-      termino: 'Kanban',
+      termino: 'Indicadores clave (KPI)',
       significado:
-        'Metodología ágil basada en tableros visuales para gestionar el flujo de trabajo y optimizar la eficiencia.',
+        'Métricas utilizadas para evaluar el rendimiento y éxito de un proyecto o proceso.',
     },
     {
-      termino: 'Key Performance Indicator (KPI)',
+      termino: 'Infografía',
       significado:
-        'Indicadores clave de desempeño utilizados para medir el éxito de un proceso o estrategia.',
+        'Representación visual que combina texto e imagen para comunicar información compleja de manera clara.',
     },
     {
-      termino: 'Metodología Ágil',
+      termino: 'Informe ejecutivo',
       significado:
-        'Conjunto de prácticas de gestión de proyectos caracterizadas por su flexibilidad y entrega incremental de valor.',
+        'Documento breve y conciso dirigido a la alta gerencia que resume resultados y recomendaciones.',
     },
     {
-      termino: 'Modelo Waterfall',
+      termino: 'Machine Learning',
       significado:
-        'Enfoque tradicional de gestión de proyectos donde las fases se desarrollan de forma secuencial y estructurada.',
+        'Rama de la inteligencia artificial que permite a los sistemas aprender automáticamente de los datos.',
     },
     {
-      termino: 'Planificación estratégica',
+      termino: 'Metadatos',
       significado:
-        'Proceso de definición de objetivos, estrategias y recursos para alcanzar metas organizacionales de manera efectiva.',
+        'Datos que describen otros datos, facilitando su organización y uso.',
     },
     {
-      termino: 'Project Management Institute (PMI)',
+      termino: 'Plataforma colaborativa',
       significado:
-        'Organización que establece estándares y mejores prácticas en la gestión de proyectos a nivel mundial.',
+        'Herramienta digital que permite a varios usuarios trabajar de forma conjunta y sincronizada.',
     },
     {
-      termino: 'Riesgo en proyectos',
+      termino: 'Retorno de inversión (ROI)',
       significado:
-        'Posibles eventos adversos que pueden afectar el éxito de un proyecto, requiriendo análisis y estrategias de mitigación.',
+        'Relación entre los beneficios obtenidos y los costos incurridos en un proyecto.',
     },
     {
-      termino: 'Scrum',
+      termino: 'Sostenibilidad',
       significado:
-        'Metodología ágil que organiza el trabajo en iteraciones llamadas sprints, promoviendo entregas rápidas y adaptativas.',
+        'Capacidad de un proyecto para mantenerse operativo, útil y actualizado a lo largo del tiempo.',
     },
     {
-      termino: 'Stakeholders',
+      termino: 'Storytelling con datos',
       significado:
-        'Personas o grupos interesados en un proyecto, incluyendo clientes, inversores y usuarios finales.',
+        'Enfoque narrativo que facilita la comprensión de la información mediante historias basadas en evidencia.',
+    },
+    {
+      termino: 'Toma de decisiones',
+      significado:
+        'Proceso de selección de alternativas basado en análisis de información relevante.',
+    },
+    {
+      termino: 'Transformación digital',
+      significado:
+        'Proceso de integración de tecnología digital en todas las áreas de una organización.',
     },
     {
       termino: 'Visualización de datos',
       significado:
-        'Representación gráfica de la información mediante gráficos, tablas y dashboards para facilitar su interpretación.',
+        'Representación gráfica de información para facilitar su análisis y comprensión.',
+    },
+    {
+      termino: 'Workflow',
+      significado:
+        'Flujo de trabajo estructurado que define las tareas y responsables en un proceso.',
     },
   ],
 }

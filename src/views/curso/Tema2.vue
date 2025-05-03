@@ -1,171 +1,132 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'2. Metodologías ágiles y tradicionales en BI'")
+    BannerInterno(:subTitulo="'2. Sostenibilidad y evolución de los proyectos de inteligencia de negocios '")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
-    
-      .row.bg-fondo-1.bg-full-width.py-4.mb-4
-        div.px-5.pb-md-3
-      
-          .row.mb-4
-            .col-12.col-xl-8(data-aos="fade-up")
-              p.mb-4 La correcta gestión de proyectos en Inteligencia de Negocios (BI), requiere la aplicación de metodologías estructuradas que permitan planificar, ejecutar y monitorear eficientemente cada fase del proyecto. En este subtema, exploraremos las metodologías tradicionales y ágiles, sus diferencias y la mejor forma de aplicarlas en proyectos de BI.
-              .d-flex.align-items-start.bg-morado-claro.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-20.svg', alt='Texto descriptivo de la imagen')
-                .my-auto
-                  p.pe-xl-3.mb-0 Según Moreno-Monsalve y Grueso Hinestroza (2024), la selección de una metodología adecuada, depende de la naturaleza del proyecto, los recursos disponibles y la necesidad de flexibilidad en su ejecución.
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-21.png', alt='Texto que describa la imagen')
 
-          h2.mb-4 ¿Qué son las metodologías de gestión de proyectos?
-          p.mb-4 Las metodologías de gestión de proyectos son enfoques estructurados que permiten planificar, ejecutar y supervisar proyectos de manera eficiente, asegurando que se cumplan los objetivos dentro de los límites de tiempo, costo y calidad (PMI, 2021). Estas metodologías se dividen en dos grandes categorías:
+      .row.mb-4
+        .col-12.col-xl-9
+          span La sostenibilidad y evolución de los proyectos de Business Intelligence, constituyen elementos estratégicos esenciales para asegurar que estas iniciativas no solo alcancen sus objetivos iniciales, sino que mantengan su relevancia y capacidad de generar valor, a lo largo del tiempo. En este sentido, un sistema de BI sostenible es aquel que se adapta a los cambios tecnológicos, organizacionales y del entorno, garantizando continuidad operativa, apropiación institucional y mejora continua.
+        .col-3.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-23.png', alt='Texto que describa la imagen')
 
-          .row.mb-4
-            .col-10.col-md-6.mb-4.mx-auto(data-aos="fade-right")
-              div.custom-image-card.rounded-8px
-                img.mb-4(src='@/assets/curso/unidad/img-22.png', alt='Texto que describa la imagen')
-                div.mb-4
-                  p.text-bold.text-center Metodologías tradicionales
-                  p.text-small.px-4.text-center.pb-2 Son enfoques secuenciales y predefinidos, adecuados para proyectos con requisitos claros y estables.
-            .col-10.col-md-6.mb-4.mx-auto(data-aos="fade-right")
-              div.custom-image-card.rounded-8px
-                img.mb-4(src='@/assets/curso/unidad/img-23.png', alt='Texto que describa la imagen')
-                div.mb-4
-                  p.text-bold.text-center Metodologías ágiles
-                  p.text-small.px-4.text-center.pb-2 Son flexibles y adaptativas, ideales para proyectos en entornos dinámicos con cambios frecuentes.
-        
-      .d-flex.align-items-start.bg-azul-oscuro.bg-full-width.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-24.svg', alt='Texto descriptivo de la imagen')
-        .my-auto
-          p.pe-xl-3.mb-0 Según Malagón Barinas (2019), el uso de metodologías estructuradas mejora la gestión de riesgos y facilita la coordinación entre los equipos de trabajo.
-
+      .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
+        div.px-4.px-md-5.py-md-3
+          SlyderA(tipo="b").bg-white
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-24.png', alt='Texto que describa la imagen')
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p De acuerdo con Fuentes Adrianzén y Carrión Barco (2021), un enfoque sostenible en inteligencia de negocios, debe integrar componentes técnicos, humanos y estratégicos que aseguren su permanencia y utilidad en el ecosistema organizacional. Esto implica no solo contar con herramientas de análisis, sino también con procesos institucionalizados que permitan actualizar modelos, interpretar indicadores claves y retroalimentar las decisiones desde los datos. 
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-25.png', alt='Texto que describa la imagen')
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p Asimismo, Hernández Gutiérrez, López Calvajar y Gutiérrez Rodríguez (2022), enfatizan que todo proyecto debe contemplar su sostenibilidad desde la planificación. En el caso del BI, esto se traduce en establecer mecanismos de monitoreo, indicadores de adopción, estrategias de formación continua y estructuras organizativas, que acompañen su evolución.
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-26.png', alt='Texto que describa la imagen')
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p Malagón Barinas (2019), por su parte, propone una visión de ciclo de vida extendido, en la que los proyectos de BI deben evolucionar desde su fase de implementación hacia modelos de madurez progresiva. Esta madurez se refleja en la capacidad de las organizaciones para expandir el alcance del BI, integrar nuevas fuentes de datos, automatizar decisiones y escalar los sistemas hacia nuevos niveles de análisis predictivo o prescriptivo.
 
       #t_2_1.titulo-segundo(data-aos="flip-up")
         div.d-flex
           span.me-3 2.1
-          h2 Metodologías tradicionales en la gestión de proyectos de BI
+          h2 Elementos claves para la sostenibilidad y evolución del BI
 
-      p.mb-4 Las metodologías tradicionales siguen un enfoque secuencial y estructurado, donde cada fase del proyecto debe completarse antes de pasar a la siguiente. Son utilizadas en proyectos de BI cuando los requisitos están bien definidos desde el inicio y hay poca incertidumbre sobre el resultado final.
+      p.mb-4 A partir de estos planteamientos, se pueden definir <b>cinco pilares fundamentales</b> para garantizar la sostenibilidad y evolución de los proyectos de inteligencia de negocios:
 
       .row.mb-4
-        .col-12.col-lg-7.col-xl-8(data-aos="fade-up")
-          LineaTiempoD.color-secundario.large
-            p(numero='1' titulo='Modelo en Cascada (Waterfall)')  Es uno de los enfoques más utilizados en la gestión tradicional de proyectos. Se basa en una serie de fases rígidas que deben completarse de manera secuencial.<br>Fases del modelo Waterfall, en BI:<br><b>1️.</b> Análisis de requerimientos. Identificación de las necesidades del negocio y recopilación de datos.<br><b>2️.</b> Diseño del sistema. Desarrollo de la arquitectura de BI y selección de herramientas.<br><b>3️.</b> Implementación. Integración de bases de datos y desarrollo de reportes.<br><b>4️.</b> Pruebas. Verificación de la precisión y confiabilidad de los datos.<br><b>5️.</b> Despliegue y mantenimiento. Implementación final y seguimiento del rendimiento del sistema.<br>Según Moreno-Monsalve y Grueso Hinestroza (2024), el modelo Waterfall es útil en proyectos de BI con requerimientos bien definidos, pero puede volverse inflexible ante cambios inesperados.
+        .col-12.col-lg-7.col-xl-8
+          AcordionA(tipo="b")
+            .div(titulo="Arquitectura tecnológica adaptable")
+              p Una infraestructura tecnológica escalable y flexible, permite la incorporación de nuevas fuentes de datos, la integración con otras plataformas y la actualización continua de las herramientas BI.<br><br><b>Ejemplo.</b> Una empresa que inicia con Power BI para reportes financieros, y con el tiempo lo expande a las áreas de talento humano y logística, mediante integración con Azure y Dynamics 365.
 
-            p(numero='2' titulo='Método del ciclo de vida en V') El modelo en V es una variante del enfoque en cascada, donde cada fase de desarrollo está directamente relacionada con una fase de prueba correspondiente. Este enfoque es útil en proyectos de BI donde la validación de datos es crítica.<br>Características claves del modelo en V en BI:<br><br>●	Énfasis en la validación y pruebas continuas.<br>●	Adecuado para proyectos con requerimientos detallados.<br>●	Menor flexibilidad para cambios durante el desarrollo.<br><br>Malagón Barinas (2019), destaca que el modelo en V es adecuado para proyectos de BI donde la precisión y calidad de los datos son aspectos fundamentales.
- 
+            .div(titulo="Gobernanza de datos y calidad continua")
+              p La sostenibilidad requiere garantizar la integridad, disponibilidad y trazabilidad de los datos. Implementar políticas de calidad y estructuras de gobernanza favorece la evolución confiable del BI.<br><br><b>Ejemplo.</b> Una entidad pública que crea un comité de datos para validar fuentes, estandarizar formatos y garantizar la actualización de dashboards estratégicos.
+
+            .div(titulo="Cultura organizacional basada en datos")
+              p El BI solo se sostiene si los usuarios finales lo consideran valioso. Promover una cultura de uso y apropiación de la analítica, es fundamental.<br><br><b>Ejemplo.</b> Una universidad que capacita a sus decanos en el uso de indicadores académicos en dashboards, para decisiones curriculares.
+
+            .div(titulo="Evaluación de impacto y retroalimentación")
+              p Es necesario evaluar periódicamente el impacto del BI en los procesos organizativos. Esto permite reorientar estrategias, ajustar indicadores y demostrar valor.<br><br><b>Ejemplo.</b> Una empresa de retail que mide trimestralmente el ROI del BI comparando reducción de inventarios y aumento en velocidad de rotación de productos.
+
+            .div(titulo="Escalabilidad estratégica")
+              p El BI debe tener la capacidad de crecer a medida que aumentan las necesidades de la organización, tanto en volumen de datos como en complejidad analítica.<br><br><b>Ejemplo.</b> Una clínica que, tras iniciar con reportes básicos, evoluciona a modelos de predicción de ausentismo y análisis de eficiencia quirúrgica con herramientas avanzadas.
+
         .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
-          img(src='@/assets/curso/unidad/img-25.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen')
 
       #t_2_2.titulo-segundo(data-aos="flip-up")
         div.d-flex
           span.me-3 2.2
-          h2 Metodologías ágiles en la gestión de proyectos de BI
+          h2 Estrategias para la continuidad operativa y actualización de los sistemas BI
 
-      .row.bg-fondo-1.bg-full-width.py-4.mb-4
-        div.px-5.pb-md-3
+      p.mb-4 La continuidad y actualización de los sistemas de Business Intelligence es esencial para responder a las demandas cambiantes del entorno empresarial.
 
-          .row.mb-4
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-26.png', alt='Texto que describa la imagen')
-            .col-12.col-xl-8(data-aos="fade-up")
-              p.mb-4 Las metodologías ágiles permiten una mayor flexibilidad y adaptación a los cambios, lo que las hace ideales para proyectos de BI, donde los requisitos pueden evolucionar con el tiempo.
-              .d-flex.align-items-start.bg-morado-claro.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-27.svg', alt='Texto descriptivo de la imagen')
-                .my-auto
-                  p.pe-xl-3.mb-0 Según Fuentes Adrianzén y Carrión Barco (2021), las metodologías ágiles son esenciales en proyectos de BI modernos, dado que permiten responder rápidamente a cambios en los datos y en los objetivos estratégicos de la organización.
-          h2 Metodología Scrum
-          p.mb-4 Scrum es una de las metodologías ágiles más utilizadas en la gestión de proyectos de BI. Se basa en <b>iteraciones cortas llamadas <i>sprints</i></b>, donde se entregan avances incrementales del proyecto.
-
-          p.mb-4 Principales roles en Scrum:
-          .row.mb-4.justify-content-center
-            .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-              .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-28.svg', style='width: 80px')
-                p.text-bold.mb-4.text-center Product Owner
-                p.px-1.text-small.mb-0.d-flex.text-center Define los objetivos del proyecto y prioriza tareas.
-            .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-              .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-29.svg', style='width: 80px')
-                p.text-bold.mb-4.text-center Scrum Master
-                p.px-1.text-small.mb-0.d-flex.text-center Facilita la metodología y resuelve impedimentos.
-            .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-              .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-30.svg', style='width: 80px')
-                p.text-bold.mb-4.text-center Equipo de desarrollo
-                p.px-1.text-small.mb-0.d-flex.text-center Implementa las soluciones de BI y desarrolla dashboards, reportes y modelos analíticos.
-
-      p.mb-4 Fases de Scrum en BI:
-      .row.mb-4
-        .col-12.col-lg-7
-          LineaTiempoD.color-secundario.large
-            p(numero='1' titulo='Planificación del sprint') Definir los requerimientos analíticos y objetivos del <i>sprint</i>.
-            p(numero='2' titulo='Desarrollo') Construcción de <i>dashboards</i> y modelos de datos.
-            p(numero='3' titulo='Revisión') Evaluación de resultados con los stakeholders. 
-            p(numero='4' titulo='Retrospectiva') Identificación de mejoras para el próximo sprint.
-        .col-12.col-lg-5.d-none.d-lg-block(data-aos="zoom-in")
-          img(src='@/assets/curso/unidad/img-31.png', alt='Texto que describa la imagen')
-
-      p.mb-4 Según Moreno-Monsalve y Grueso Hinestroza (2024), Scrum es particularmente útil en proyectos de BI, donde la exploración de datos y la creación de reportes requieren iteraciones rápidas y continuas.
-      h2 Metodología Kanban
-      p.mb-4 Kanban es un método visual para la gestión de proyectos basado en tableros, que permiten visualizar el flujo de trabajo y mejorar la eficiencia en los procesos.
-
-      .row.bg-azul.bg-full-width.py-4.mb-4
-        div.px-5.pb-md-3
-
-          .row.mb-4
-            .col-5.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-32.png', alt='Texto que describa la imagen')
-            .col-12.col-xl-7(data-aos="fade-up").d-flex.flex-column.justify-content-center
-              p.mb-4 Aplicación de Kanban en BI:
-              p.mb-4 ●	Facilita la organización de tareas en proyectos de análisis de datos.<br>●	Permite visualizar cuellos de botella en la entrega de reportes.<br>●	Mejora la comunicación entre los equipos de trabajo.
-
-              span.text-bold Malagón Barinas (2019), menciona que Kanban es útil en proyectos de BI donde se requiere gestionar múltiples solicitudes de reportes y análisis de manera eficiente. 
-
-      p.mb-4 La siguiente tabla presenta una comparación entre metodologías ágiles y tradicionales, en BI:
-      p.mb-4 <b>Tabla 1.</b> Comparación metodologías ágiles y tradicionales
-
-      .tabla-a.mb-4
-        table
-          thead
-            tr
-              th.text-bold.bg-amarillo-oscuro.text-center Característica
-              th.text-bold.bg-amarillo-oscuro.text-center Metodologías Tradicionales
-              th.text-bold.bg-amarillo-oscuro.text-center Metodologías Ágiles
-          tbody
-            tr
-              td.text-center.text-bold Flexibilidad
-              td.text-center Baja.
-              td.text-center Alta.
-            tr
-              td.text-center.text-bold Adaptabilidad
-              td.text-center Baja.
-              td.text-center Alta.
-            tr
-              td.text-center.text-bold Entrega de valor
-              td.text-center Al final del proyecto.
-              td.text-center Iterativa y continua.
-            tr
-              td.text-center.text-bold Control del proceso
-              td.text-center Estricto y planificado.
-              td.text-center Basado en necesidades cambiantes.
-            tr
-              td.text-center.text-bold Aplicabilidad en BI
-              td.text-center Útil en proyectos con datos estructurados y requerimientos claros.
-              td.text-center Ideal para proyectos de exploración de datos y modelado avanzado.
-
-      p.mb-4 Según Hernández Gutiérrez et al. (2022), la combinación de enfoques ágiles y tradicionales, puede ser la estrategia más efectiva en proyectos de BI, permitiendo un balance entre control y flexibilidad.
-      
       .row.bg-azul.bg-full-width.py-4.mb-4
         div.px-5.pb-md-3.py-4.d-flex
           .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
-            h2.mb-4.pb-2.me-auto Casos de estudio y ejemplos prácticos 
-            p.mb-5(data-aos="fade-up") El análisis de metodologías aplicadas a proyectos de inteligencia de negocios permite comprender cómo adaptar la gestión según el contexto y necesidades de cada organización. En el PDF Casos de estudio y ejemplos prácticos , se presentan tres casos reales que ilustran la aplicación de enfoques como Waterfall, Scrum y Kanban en sectores financieros, de comercio electrónico y retail. A través de estos ejemplos se destacan los criterios de selección, beneficios obtenidos y resultados concretos, facilitando el aprendizaje práctico sobre cómo elegir y adaptar metodologías efectivas en el ámbito de la inteligencia de negocios.
-
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Casos de estudio y ejemplos prácticos.pdf')" target="_blank")
+            h2.mb-4.pb-2.me-auto Estrategias para la continuidad operativa y actualización de los sistemas BI 
+            p.mb-5(data-aos="fade-up") En el PDF Estrategias , se presentan enfoques clave para garantizar la sostenibilidad técnica y estratégica de estas soluciones, abordando desde la mejora continua hasta la gestión del conocimiento y la renovación tecnológica. Estas estrategias permiten mantener la eficacia del sistema BI como soporte vital para la toma de decisiones informadas y oportunas.
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Estrategias para la continuidad operativa y actualización de los sistemas BI.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-              p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Casos de estudio y ejemplos prácticos.
+              p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Estrategias para la continuidad operativa y actualización de los sistemas BI 
           .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
-            img.h-100(src='@/assets/curso/unidad/img-33.png', alt='Texto que describa la imagen')
+            img.h-100(src='@/assets/curso/unidad/img-28.png', alt='Texto que describa la imagen')
+      
+      #t_2_3.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 2.3
+          h2 Estrategias recomendadas para asegurar la continuidad y evolución operativa en BI
+
+      p.mb-4 A continuación, se detallan las principales estrategias que contribuyen a garantizar la continuidad funcional y la actualización constante de los sistemas BI:
+
+      .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
+        div.px-4.px-md-5.py-md-3
+          SlyderA(tipo="b").bg-white
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Planes de mantenimiento preventivo y actualizaciones tecnológicas
+                p Establecer cronogramas periódicos de revisión de hardware, software y conectividad, asegura la operatividad del sistema y previene fallos críticos.<br><br><b>Ejemplo.</b> Un hospital realiza cada trimestre la actualización de conectores entre su sistema de historia clínica y la herramienta BI, evitando pérdidas de datos o incompatibilidades.
+
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen') 
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Capacitación continua y gestión del conocimiento
+                p La formación permanente del equipo de usuarios y técnicos, garantiza la autonomía y la apropiación del sistema, evitando la dependencia de consultores externos.<br><br><b>Ejemplo.</b> Una compañía de seguros crea un programa de formación interna en Tableau y storytelling con datos, dirigido a analistas y líderes funcionales.
+
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-30.png', alt='Texto que describa la imagen') 
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Protocolos de contingencia y recuperación ante fallos
+                p Diseñar planes de respaldo, redundancia y recuperación rápida permite asegurar la disponibilidad del sistema frente a incidentes técnicos o de ciberseguridad.<br><br><b>Ejemplo.</b> Un banco establece copias de seguridad automáticas en la nube cada 12 horas y cuenta con un protocolo para reiniciar su servidor BI en menos de una hora ante caídas críticas.
+
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-31.png', alt='Texto que describa la imagen') 
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Revisión periódica de indicadores claves (KPIs)
+                p Los dashboards deben reflejar los objetivos actuales del negocio. Se recomienda auditar semestralmente los KPIs para identificar obsolescencias o nuevas necesidades.<br><br><b>Ejemplo.</b> Una universidad elimina del dashboard académico un indicador de titulación obsoleto y lo reemplaza por un KPI de empleabilidad de egresados.
+
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-32.png', alt='Texto que describa la imagen') 
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Incorporación de tecnologías emergentes
+                p La evolución del BI debe contemplar nuevas herramientas como inteligencia artificial, Big Data, automatización o visualizaciones interactivas, siempre que se alineen con las metas organizacionales.<br><br><b>Ejemplo.</b> Una cadena de supermercados incorpora análisis predictivo con Machine Learning para estimar rotación de productos, integrando esta funcionalidad a su plataforma BI.
+
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-33.png', alt='Texto que describa la imagen') 
 
       .bg-full-width.border-top-9-azul
         .px-5.pt-5.pb-0
@@ -177,11 +138,13 @@
                 a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/172949") Zahera-Pérez, M. (2021). Industria 4.0 y la Dirección e Ingeniería de Proyectos
               p.d-flex.my-4
                 img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=OwIeGGd81Dk") [Vídeo] Empresarios de Alto Rendimiento Training. (2021). El arte de la planeación estratégica: Construyendo el éxito a largo plazo
+                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=Zqd3vXg0ZNo&t=11s") [Vídeo] Software Guru. (2019). Del Business Intelligence en sitio al Business Intelligence en home office
             .col-12.col-md-6.col-lg-3
               figure
                 img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
-  </template>
+      p
+
+</template>
 
 <script>
 export default {
