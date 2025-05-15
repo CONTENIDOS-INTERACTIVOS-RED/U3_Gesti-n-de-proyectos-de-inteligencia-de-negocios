@@ -22,8 +22,8 @@
         div.px-5.pb-md-3.py-4.d-flex
           .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Herramientas para la planificación y control del ciclo de vida del proyecto 
-            p.mb-5(data-aos="fade-up") En el PDF Herramientas para la planificación y control del ciclo de vida del proyecto , se analizan soluciones tecnológicas que permiten estructurar, monitorear y ajustar cada fase del proyecto de forma colaborativa y trazable. Estas herramientas facilitan la toma de decisiones estratégicas, optimizan los recursos y fortalecen una cultura de gestión orientada a resultados sostenibles.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Herramientas para la planificación y control del ciclo de vida del proyecto.pdf')" target="_blank")
+            p.mb-5(data-aos="fade-up") En el PDF Herramientas para la planificación y control del ciclo de vida del proyecto, se analizan soluciones tecnológicas que permiten estructurar, monitorear y ajustar cada fase del proyecto de forma colaborativa y trazable. Estas herramientas facilitan la toma de decisiones estratégicas, optimizan los recursos y fortalecen una cultura de gestión orientada a resultados sostenibles.
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Herramientas_para_la_planificación_y_control.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Herramientas para la planificación y control del ciclo de vida del proyecto 
           .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")

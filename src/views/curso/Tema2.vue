@@ -70,8 +70,8 @@
         div.px-5.pb-md-3.py-4.d-flex
           .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Estrategias para la continuidad operativa y actualización de los sistemas BI 
-            p.mb-5(data-aos="fade-up") En el PDF Estrategias , se presentan enfoques clave para garantizar la sostenibilidad técnica y estratégica de estas soluciones, abordando desde la mejora continua hasta la gestión del conocimiento y la renovación tecnológica. Estas estrategias permiten mantener la eficacia del sistema BI como soporte vital para la toma de decisiones informadas y oportunas.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Estrategias para la continuidad operativa y actualización de los sistemas BI.pdf')" target="_blank")
+            p.mb-5(data-aos="fade-up") En el PDF Estrategias, se presentan enfoques clave para garantizar la sostenibilidad técnica y estratégica de estas soluciones, abordando desde la mejora continua hasta la gestión del conocimiento y la renovación tecnológica. Estas estrategias permiten mantener la eficacia del sistema BI como soporte vital para la toma de decisiones informadas y oportunas.
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Estrategias_para_la_continuidad_operativa.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Estrategias para la continuidad operativa y actualización de los sistemas BI 
           .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
